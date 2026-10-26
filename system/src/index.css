@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap");
+@import url("./styles/Navbar.css");
+@import url("./styles/Login.css");
+@import url("./styles/Inventory.css");
+@import url("./styles/Purchases.css");
+@import url("./styles/Recipes.css");
+@import url("./styles/Production.css");
+@import url("./styles/Suppliers.css");
+@import url("./styles/Sales.css");
+@import url("./styles/StockCount.css");
+
+:root {
+  color-scheme: light;
+
+  /* Core */
+  --color-text: #202a35;
+  --color-text-muted: #748091;
+  --color-page: #f6f8fb;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f7f9fb;
+  --color-surface-hover: #f2f5f8;
+  --color-border: #e7ebf0;
+
+  /* Brand */
+  --color-primary: #276c59;
+  --color-primary-hover: #1e5848;
+  --color-primary-soft: #eaf3ef;
+  --color-primary-border: #c8ded5;
+
+  /* Semantic states */
+  --color-success: #247348;
+  --color-success-soft: #eaf6ef;
+  --color-success-border: #c8e5d3;
+
+  --color-warning: #a96f17;
+  --color-warning-soft: #fff3e0;
+  --color-warning-border: #f0d9ad;
+
+  --color-danger: #b33a32;
+  --color-danger-soft: #fff1ef;
+  --color-danger-border: #f1ceca;
+
+  --color-info: #526d91;
+  --color-info-soft: #edf3fa;
+  --color-info-border: #d5e1ef;
+
+  --color-purple: #7957b8;
+  --color-purple-soft: #f1edfb;
+
+  /* Overlays, focus and shadows */
+  --color-overlay: rgba(20, 31, 40, 0.48);
+  --color-focus-ring: rgba(39, 108, 89, 0.14);
+  --shadow-card: 0 3px 14px rgba(32, 42, 53, 0.04);
+  --shadow-elevated: 0 12px 35px rgba(32, 42, 53, 0.14);
+
+  /* Compatibility aliases for existing stylesheets */
+  --text: var(--color-text);
+  --text-muted: var(--color-text-muted);
+  --background: var(--color-page);
+  --surface: var(--color-surface);
+  --surface-soft: var(--color-surface-muted);
+  --primary: var(--color-primary);
+  --primary-hover: var(--color-primary-hover);
+  --secondary: var(--color-surface-hover);
+  --accent: var(--color-primary);
+  --border: var(--color-border);
+  --danger: var(--color-danger);
+  --success: var(--color-success);
+  --warning: var(--color-warning);
+
+  --sidebar-width: 260px;
+  --font-family: "Zain", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-page);
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  background: var(--color-page);
+  font-family: var(--font-family);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.Routes{
+  position : absolute;
+  right : 0;
+  width : 78vw;
+  padding : 25px;
+}
+
